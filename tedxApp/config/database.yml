@@ -23,7 +23,12 @@ default: &default
 
 development:
   <<: *default
-  database: tedxApp_development
+  database: tedx
+  pool: 5
+  username: doola
+  password: 1
+  host: localhost
+  port: 5432
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
