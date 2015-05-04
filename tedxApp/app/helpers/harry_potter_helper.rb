@@ -1,0 +1,2 @@
+module HarryPotterHelper
+end

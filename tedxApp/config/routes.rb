@@ -1,4 +1,22 @@
 Rails.application.routes.draw do
+  get 'twilight/Dismissed'
+
+  get 'harry_potter/home'
+
+  get 'harry_potter/page2'
+
+  get 'harry_potter/page3'
+
+  get 'harry_potter/page4'
+
+  get 'captain_america/home'
+
+  get 'captain_america/page2'
+
+  get 'captain_america/page3'
+
+  get 'captain_america/page4'
+
   get 'static_pages/home'
 
   get 'static_pages/help'
