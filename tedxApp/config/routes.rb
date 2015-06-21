@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'issue_2/coldplay'
+
+  get 'issue_2/pinkFloyd'
+
+  get 'issue_2/theBeatles'
+
+  get 'issue_2/armin'
+
+  get 'home/issues'
+
+  get 'home/issue_2'
+
   get 'twilight/Dismissed'
 
   get 'harry_potter/home'
@@ -33,7 +45,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'welcome#index'
+  root 'home#issues'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
