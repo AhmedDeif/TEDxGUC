@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'i2/armin'
+
+  get 'i2/cold'
+
+  get 'i2/pink'
+
+  get 'i2/beatles'
+
+  get 'i2/ed'
+
   get 'issue_2/coldplay'
 
   get 'issue_2/pinkFloyd'
