@@ -49,9 +49,12 @@ Rails.application.routes.draw do
 
   get 'batman/page3'
 
+
   get 'batman/page4'
 
   get 'coldplay/home'
+
+  get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
